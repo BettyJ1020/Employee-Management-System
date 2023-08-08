@@ -209,16 +209,44 @@ namespace EmployeeMgnt1
 
         }
 
-        private void label10_Click(object sender, EventArgs e) // Department Btn
+        private void label1_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void pictureBox3_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void customButton1_Click(object sender, EventArgs e) // Department Btn
         {
             Departments Obj = new Departments();
             Obj.Show();
             this.Hide();
+
         }
 
-        private void label1_Click(object sender, EventArgs e)
+        
+
+        private void customButton1_Click_1(object sender, EventArgs e) // 
+        {
+            Salaries Obj = new Salaries();
+            Obj.Show();
+            this.Hide();
+
+        }
+
+        private void pictureBox1_Click(object sender, EventArgs e)
         {
 
+        }
+
+        private void customButton2_Click(object sender, EventArgs e) // Logout Btn
+        {
+            Login Obj = new Login();
+            Obj.Show();
+            this.Hide();
         }
     }
 }

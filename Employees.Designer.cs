@@ -49,21 +49,21 @@
             this.EmpUp_Btn = new System.Windows.Forms.Button();
             this.Emp_List = new System.Windows.Forms.DataGridView();
             this.panel2 = new System.Windows.Forms.Panel();
-            this.label12 = new System.Windows.Forms.Label();
-            this.pictureBox5 = new System.Windows.Forms.PictureBox();
-            this.label11 = new System.Windows.Forms.Label();
-            this.pictureBox4 = new System.Windows.Forms.PictureBox();
-            this.Dep_Btn = new System.Windows.Forms.Label();
-            this.pictureBox3 = new System.Windows.Forms.PictureBox();
             this.label1 = new System.Windows.Forms.Label();
             this.panel1 = new System.Windows.Forms.Panel();
             this.Del_Btn = new System.Windows.Forms.Button();
+            this.pictureBox1 = new System.Windows.Forms.PictureBox();
+            this.pictureBox6 = new System.Windows.Forms.PictureBox();
+            this.pictureBox3 = new System.Windows.Forms.PictureBox();
+            this.customButton2 = new EmployeeMgnt1.CustomButton();
+            this.Sal_Btn = new EmployeeMgnt1.CustomButton();
+            this.Deps_Btn = new EmployeeMgnt1.CustomButton();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.Emp_List)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox5)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).BeginInit();
             this.panel1.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox6)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).BeginInit();
             this.SuspendLayout();
             // 
             // label2
@@ -293,76 +293,6 @@
             this.panel2.Size = new System.Drawing.Size(1018, 28);
             this.panel2.TabIndex = 58;
             // 
-            // label12
-            // 
-            this.label12.AutoSize = true;
-            this.label12.BackColor = System.Drawing.Color.Transparent;
-            this.label12.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label12.ForeColor = System.Drawing.Color.SteelBlue;
-            this.label12.Location = new System.Drawing.Point(890, 131);
-            this.label12.Name = "label12";
-            this.label12.Size = new System.Drawing.Size(93, 29);
-            this.label12.TabIndex = 66;
-            this.label12.Text = "Logout";
-            // 
-            // pictureBox5
-            // 
-            this.pictureBox5.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.pictureBox5.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox5.Image")));
-            this.pictureBox5.Location = new System.Drawing.Point(832, 126);
-            this.pictureBox5.Name = "pictureBox5";
-            this.pictureBox5.Size = new System.Drawing.Size(52, 40);
-            this.pictureBox5.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.pictureBox5.TabIndex = 65;
-            this.pictureBox5.TabStop = false;
-            // 
-            // label11
-            // 
-            this.label11.AutoSize = true;
-            this.label11.BackColor = System.Drawing.Color.Transparent;
-            this.label11.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label11.ForeColor = System.Drawing.Color.SteelBlue;
-            this.label11.Location = new System.Drawing.Point(672, 131);
-            this.label11.Name = "label11";
-            this.label11.Size = new System.Drawing.Size(86, 29);
-            this.label11.TabIndex = 64;
-            this.label11.Text = "Salary";
-            // 
-            // pictureBox4
-            // 
-            this.pictureBox4.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.pictureBox4.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox4.Image")));
-            this.pictureBox4.Location = new System.Drawing.Point(614, 122);
-            this.pictureBox4.Name = "pictureBox4";
-            this.pictureBox4.Size = new System.Drawing.Size(52, 40);
-            this.pictureBox4.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.pictureBox4.TabIndex = 63;
-            this.pictureBox4.TabStop = false;
-            // 
-            // Dep_Btn
-            // 
-            this.Dep_Btn.AutoSize = true;
-            this.Dep_Btn.BackColor = System.Drawing.Color.Transparent;
-            this.Dep_Btn.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.Dep_Btn.ForeColor = System.Drawing.Color.SteelBlue;
-            this.Dep_Btn.Location = new System.Drawing.Point(387, 131);
-            this.Dep_Btn.Name = "Dep_Btn";
-            this.Dep_Btn.Size = new System.Drawing.Size(161, 29);
-            this.Dep_Btn.TabIndex = 62;
-            this.Dep_Btn.Text = "Departments";
-            this.Dep_Btn.Click += new System.EventHandler(this.label10_Click);
-            // 
-            // pictureBox3
-            // 
-            this.pictureBox3.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.pictureBox3.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox3.Image")));
-            this.pictureBox3.Location = new System.Drawing.Point(329, 122);
-            this.pictureBox3.Name = "pictureBox3";
-            this.pictureBox3.Size = new System.Drawing.Size(52, 40);
-            this.pictureBox3.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.pictureBox3.TabIndex = 61;
-            this.pictureBox3.TabStop = false;
-            // 
             // label1
             // 
             this.label1.AutoSize = true;
@@ -402,20 +332,106 @@
             this.Del_Btn.UseVisualStyleBackColor = false;
             this.Del_Btn.Click += new System.EventHandler(this.Del_Btn_Click);
             // 
+            // pictureBox1
+            // 
+            this.pictureBox1.BackColor = System.Drawing.Color.SteelBlue;
+            this.pictureBox1.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox1.Image")));
+            this.pictureBox1.Location = new System.Drawing.Point(569, 128);
+            this.pictureBox1.Name = "pictureBox1";
+            this.pictureBox1.Size = new System.Drawing.Size(40, 27);
+            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.pictureBox1.TabIndex = 71;
+            this.pictureBox1.TabStop = false;
+            this.pictureBox1.Click += new System.EventHandler(this.pictureBox1_Click);
+            // 
+            // pictureBox6
+            // 
+            this.pictureBox6.BackColor = System.Drawing.Color.SteelBlue;
+            this.pictureBox6.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox6.Image")));
+            this.pictureBox6.Location = new System.Drawing.Point(800, 128);
+            this.pictureBox6.Name = "pictureBox6";
+            this.pictureBox6.Size = new System.Drawing.Size(40, 27);
+            this.pictureBox6.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.pictureBox6.TabIndex = 73;
+            this.pictureBox6.TabStop = false;
+            // 
+            // pictureBox3
+            // 
+            this.pictureBox3.BackColor = System.Drawing.Color.SteelBlue;
+            this.pictureBox3.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox3.Image")));
+            this.pictureBox3.Location = new System.Drawing.Point(334, 127);
+            this.pictureBox3.Name = "pictureBox3";
+            this.pictureBox3.Size = new System.Drawing.Size(40, 27);
+            this.pictureBox3.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.pictureBox3.TabIndex = 61;
+            this.pictureBox3.TabStop = false;
+            this.pictureBox3.Click += new System.EventHandler(this.pictureBox3_Click);
+            // 
+            // customButton2
+            // 
+            this.customButton2.BackColor = System.Drawing.Color.SteelBlue;
+            this.customButton2.FlatAppearance.BorderSize = 0;
+            this.customButton2.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.customButton2.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.customButton2.ForeColor = System.Drawing.Color.White;
+            this.customButton2.ImageAlign = System.Drawing.ContentAlignment.MiddleRight;
+            this.customButton2.Location = new System.Drawing.Point(796, 122);
+            this.customButton2.Name = "customButton2";
+            this.customButton2.RightToLeft = System.Windows.Forms.RightToLeft.No;
+            this.customButton2.Size = new System.Drawing.Size(210, 40);
+            this.customButton2.TabIndex = 74;
+            this.customButton2.Text = "Logout";
+            this.customButton2.UseVisualStyleBackColor = false;
+            this.customButton2.Click += new System.EventHandler(this.customButton2_Click);
+            // 
+            // Sal_Btn
+            // 
+            this.Sal_Btn.BackColor = System.Drawing.Color.SteelBlue;
+            this.Sal_Btn.FlatAppearance.BorderSize = 0;
+            this.Sal_Btn.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.Sal_Btn.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Sal_Btn.ForeColor = System.Drawing.Color.White;
+            this.Sal_Btn.ImageAlign = System.Drawing.ContentAlignment.MiddleRight;
+            this.Sal_Btn.Location = new System.Drawing.Point(565, 122);
+            this.Sal_Btn.Name = "Sal_Btn";
+            this.Sal_Btn.RightToLeft = System.Windows.Forms.RightToLeft.No;
+            this.Sal_Btn.Size = new System.Drawing.Size(210, 40);
+            this.Sal_Btn.TabIndex = 72;
+            this.Sal_Btn.Text = "Salary";
+            this.Sal_Btn.UseVisualStyleBackColor = false;
+            this.Sal_Btn.Click += new System.EventHandler(this.customButton1_Click_1);
+            // 
+            // Deps_Btn
+            // 
+            this.Deps_Btn.BackColor = System.Drawing.Color.SteelBlue;
+            this.Deps_Btn.FlatAppearance.BorderSize = 0;
+            this.Deps_Btn.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.Deps_Btn.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Deps_Btn.ForeColor = System.Drawing.Color.White;
+            this.Deps_Btn.ImageAlign = System.Drawing.ContentAlignment.MiddleRight;
+            this.Deps_Btn.Location = new System.Drawing.Point(330, 121);
+            this.Deps_Btn.Name = "Deps_Btn";
+            this.Deps_Btn.RightToLeft = System.Windows.Forms.RightToLeft.No;
+            this.Deps_Btn.Size = new System.Drawing.Size(210, 40);
+            this.Deps_Btn.TabIndex = 70;
+            this.Deps_Btn.Text = "Department";
+            this.Deps_Btn.UseVisualStyleBackColor = false;
+            this.Deps_Btn.Click += new System.EventHandler(this.customButton1_Click);
+            // 
             // Employees
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(14F, 29F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.White;
             this.ClientSize = new System.Drawing.Size(1018, 656);
+            this.Controls.Add(this.pictureBox6);
+            this.Controls.Add(this.customButton2);
+            this.Controls.Add(this.pictureBox1);
+            this.Controls.Add(this.Sal_Btn);
+            this.Controls.Add(this.pictureBox3);
+            this.Controls.Add(this.Deps_Btn);
             this.Controls.Add(this.Del_Btn);
             this.Controls.Add(this.panel1);
-            this.Controls.Add(this.label12);
-            this.Controls.Add(this.pictureBox5);
-            this.Controls.Add(this.label11);
-            this.Controls.Add(this.pictureBox4);
-            this.Controls.Add(this.Dep_Btn);
-            this.Controls.Add(this.pictureBox3);
             this.Controls.Add(this.panel2);
             this.Controls.Add(this.Emp_List);
             this.Controls.Add(this.EmpUp_Btn);
@@ -442,11 +458,11 @@
             this.Load += new System.EventHandler(this.EmpUp_Btn_Load);
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.Emp_List)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox5)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).EndInit();
             this.panel1.ResumeLayout(false);
             this.panel1.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox6)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -471,14 +487,14 @@
         private System.Windows.Forms.Button EmpUp_Btn;
         private System.Windows.Forms.DataGridView Emp_List;
         private System.Windows.Forms.Panel panel2;
-        private System.Windows.Forms.Label label12;
-        private System.Windows.Forms.PictureBox pictureBox5;
-        private System.Windows.Forms.Label label11;
-        private System.Windows.Forms.PictureBox pictureBox4;
-        private System.Windows.Forms.Label Dep_Btn;
-        private System.Windows.Forms.PictureBox pictureBox3;
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.Panel panel1;
         private System.Windows.Forms.Button Del_Btn;
+        private System.Windows.Forms.PictureBox pictureBox1;
+        private CustomButton Sal_Btn;
+        private System.Windows.Forms.PictureBox pictureBox6;
+        private CustomButton customButton2;
+        private CustomButton Deps_Btn;
+        private System.Windows.Forms.PictureBox pictureBox3;
     }
 }

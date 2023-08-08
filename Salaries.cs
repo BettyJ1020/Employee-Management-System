@@ -131,12 +131,25 @@ namespace EmployeeMgnt1
 
         }
 
-        private void Logout_Lbl_Click(object sender, EventArgs e)
+        private void Emp_Btn_Click(object sender, EventArgs e)
+        {
+            Employees obj = new Employees();
+            obj.Show();
+            this.Hide();
+        }
+
+        private void Dep_Btn_Click(object sender, EventArgs e)
+        {
+            Departments Obj = new Departments();
+            Obj.Show();
+            this.Hide();
+        }
+
+        private void Logout_Btn_Click(object sender, EventArgs e)
         {
             Login Obj = new Login();
             Obj.Show();
             this.Hide();
-
         }
     }
 }

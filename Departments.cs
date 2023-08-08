@@ -138,12 +138,6 @@ namespace EmployeeMgnt1
             
         }
 
-        private void Emp_Lbl_Click(object sender, EventArgs e)
-        {
-            Employees obj = new Employees();
-            obj.Show();
-            this.Hide();
-        }
 
         private void Departments_Load(object sender, EventArgs e)
         {
@@ -156,6 +150,27 @@ namespace EmployeeMgnt1
             obj.Show();
             this.Hide();
 
+        }
+
+        private void Emp_Btn_Click(object sender, EventArgs e)
+        {
+            Employees obj = new Employees();
+            obj.Show();
+            this.Hide();
+        }
+
+        private void Sal_Btn_Click(object sender, EventArgs e)
+        {
+            Salaries Obj = new Salaries();
+            Obj.Show();
+            this.Hide();
+        }
+
+        private void customButton2_Click(object sender, EventArgs e)
+        {
+            Login Obj = new Login();
+            Obj.Show();
+            this.Hide();
         }
     }
 }
